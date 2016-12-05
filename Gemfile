@@ -31,7 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 group :production do
-gem 'pg'
+	gem 'pg'
 end
 
 group :development, :test do
@@ -47,5 +47,10 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+end
+
+group :development do
+	gem 'populator'
+	gem 'faker'
 end
 
