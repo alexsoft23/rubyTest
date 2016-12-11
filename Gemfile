@@ -34,6 +34,8 @@ group :production do
 	gem 'pg'
 	gem 'populator'
 	gem 'faker'
+	gem 'activeadmin', github: 'activeadmin'
+	gem 'devise'
 end
 
 group :development, :test do
@@ -54,5 +56,7 @@ end
 group :development do
 	gem 'populator'
 	gem 'faker'
+	gem 'activeadmin', github: 'activeadmin'
+	gem 'devise'
 end
 
